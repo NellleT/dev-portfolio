@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bewerbungsseite – Vlad Zakharov</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    @font-face { font-family: "Garet"; src: local("Garet"); font-display: swap; }
+  </style>
+
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+  <div id="lang-overlay" aria-hidden="true"></div>
+
+  <header class="top-header">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" data-de="Home" data-en="Home">Home</a></li>
+        <li><a href="#about" data-de="Über mich" data-en="About me">Über mich</a></li>
+        <li><a href="#skills" data-de="Skills" data-en="Skills">Skills</a></li>
+        <li><a href="#projects" data-de="Projekte" data-en="Projects">Projekte</a></li>
+        <li><a href="#funfacts" data-de="Fun Facts" data-en="Fun Facts">Fun Facts</a></li>
+        <li><a href="#contact" data-de="Kontakt" data-en="Contact">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="lang-switch" role="group" aria-label="Language switch">
+      <button id="lang-de" class="active" aria-pressed="true">DE</button>
+      <button id="lang-en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero reveal">
+    <h1 id="typing-text"
+        data-de="Grüezi, ich bin Vlad"
+        data-en="Hello, I'm Vlad"></h1>
+
+    <div class="photo-frame" aria-hidden="true">
+      <img src="images/photo.jpg" alt="Vlad Zakharov">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+<section id="about" class="reveal">
+  <h2 data-de="Über mich" data-en="About me">Über mich</h2>
+
+  <p class="intro"
+     data-de="Ich bin 17 Jahre alt und suche eine Lehrstelle im Bereich Applikationsentwicklung."
+     data-en="I'm 17 years old and looking for an apprenticeship in application development.">
+    Ich bin 17 Jahre alt und suche eine Lehrstelle im Bereich Applikationsentwicklung.
+  </p>
+
+  <p
+    data-de="Ich lebe seit dem 1. Dezember 2022 in der Schweiz. Anschliessend besuchte ich die Berufswahlschule Uster, wo ich mich auf technische Themen konzentrierte: Zahlensysteme, Netzwerkgrundlagen, Linux sowie Programmierung mit Python, HTML und CSS."
+    data-en="I have been living in Switzerland since December 1, 2022. After moving here I attended Berufswahlschule Uster, focusing on technical subjects: number systems, networking basics, Linux, and programming with Python, HTML and CSS.">
+    Ich lebe seit dem 1. Dezember 2022 in der Schweiz. Anschliessend besuchte ich die Berufswahlschule Uster, wo ich mich auf technische Themen konzentrierte: Zahlensysteme, Netzwerkgrundlagen, Linux sowie Programmierung mit Python, HTML und CSS.
+  </p>
+
+  <p
+    data-de="Am 18.11.2024 begann ich einen Intensiv-Deutschkurs bei Flying Teachers (Oerlikon), den ich bis zum 16.07.2025 besuchte; am 19.07.2025 legte ich die telc B2-Pruefung ab und warte derzeit auf das Ergebnis."
+    data-en="On November 18, 2024 I started an intensive German course at Flying Teachers (Oerlikon) which I attended until July 16, 2025; I took the telc B2 exam on July 19, 2025 and am currently awaiting the result.">
+    Am 18.11.2024 begann ich einen Intensiv-Deutschkurs bei Flying Teachers (Oerlikon), den ich bis zum 16.07.2025 besuchte; am 19.07.2025 legte ich die telc B2-Pruefung ab und warte derzeit auf das Ergebnis.
+  </p>
+
+  <p
+    data-de="Zwischenzeitlich sammelte ich praktische Einblicke durch eine Schnupperlehre als Applikationsentwickler bei Sonova AG und absolvierte den ICT-Multicheck. Diese Erfahrungen bestaetigten meinen Wunsch nach einer praxisorientierten Ausbildung."
+    data-en="In parallel I gained hands-on experience during a trial apprenticeship as an application developer at Sonova AG and completed the ICT Multicheck. These experiences strengthened my decision to pursue a practical apprenticeship.">
+    Zwischenzeitlich sammelte ich praktische Einblicke durch eine Schnupperlehre als Applikationsentwickler bei Sonova AG und absolvierte den ICT-Multicheck. Diese Erfahrungen bestaetigten meinen Wunsch nach einer praxisorientierten Ausbildung.
+  </p>
+
+  <p
+    data-de="Aktuell bringe ich mir Git und JavaScript selbst bei und entwickle eigene Webprojekte (u. a. Avion, Brex). Mein Berufsziel ist eine Lehrstelle als Informatiker Applikationsentwicklung (alternativ Mediamatiker)."
+    data-en="Today I am self-teaching Git and JavaScript and building personal web projects (e.g. Avion, Brex). My goal is to start an apprenticeship as an Application Developer (or alternatively Mediamatician).">
+    Aktuell bringe ich mir Git und JavaScript selbst bei und entwickle eigene Webprojekte (u. a. Avion, Brex). Mein Berufsziel ist eine Lehrstelle als Informatiker Applikationsentwicklung (alternativ Mediamatiker).
+  </p>
+
+  <p
+    data-de="Persönlich sind mir Werte wie Disziplin und Genauigkeit wichtig (「規律」 Kiritsu). In meiner Freizeit programmiere ich, lerne Sprachen (Japanisch), mache Krafttraining und spiele Gitarre."
+    data-en="I value discipline and precision (「規律」 Kiritsu). In my free time I enjoy programming, learning languages (Japanese), strength training and playing the guitar.">
+    Persönlich sind mir Werte wie Disziplin und Genauigkeit wichtig (「規律」 Kiritsu). In meiner Freizeit programmiere ich, lerne Sprachen (Japanisch), mache Krafttraining und spiele Gitarre.
+  </p>
+</section>
+
+
+
+
+  <!-- SKILLS -->
+  <section id="skills" class="reveal">
+    <h2 data-de="Skills" data-en="Skills">Skills</h2>
+
+    <div class="skill">
+      <span class="skill-icon icon-python" aria-hidden="true"></span>
+      <span class="skill-name">Python</span>
+      <div class="bar"><div style="width:85%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span class="skill-icon icon-html" aria-hidden="true"></span>
+      <span class="skill-name">HTML &amp; CSS</span>
+      <div class="bar"><div style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span class="skill-icon icon-js" aria-hidden="true"></span>
+      <span class="skill-name">JavaScript</span>
+      <div class="bar"><div style="width:60%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span class="skill-icon icon-ps" aria-hidden="true"></span>
+      <span class="skill-name">Photoshop</span>
+      <div class="bar"><div style="width:70%"></div></div>
+    </div>
+
+    <div class="skill">
+      <span class="skill-icon icon-git" aria-hidden="true"></span>
+      <span class="skill-name">Git</span>
+      <div class="bar"><div style="width:80%"></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="reveal">
+    <h2 data-de="Projekte" data-en="Projects">Projekte</h2>
+
+    <div class="project">
+      <h3>Avion</h3>
+      <p data-de="Mein erstes ernsthaftes Projekt in HTML & CSS – ein stilvoller Online-Möbelshop." data-en="My first serious project in HTML & CSS – a stylish online furniture shop.">
+        Mein erstes ernsthaftes Projekt in HTML & CSS – ein stilvoller Online-Möbelshop.
+      </p>
+      <a class="btn cv-blue" href="https://nelllet.github.io/Avion/" target="_blank" rel="noopener">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>Brex</h3>
+      <p data-de="Mein zweites Projekt – eine Bank-/Finanz-Website. Aktuell lerne ich JavaScript und baue diese Seite." data-en="My second project – a banking/finance site. I am currently learning JavaScript and building this page.">
+        Mein zweites Projekt – eine Bank-/Finanz-Website. Aktuell lerne ich JavaScript und baue diese Seite.
+      </p>
+      <a class="btn cv-blue" href="https://nelllet.github.io/Brex/" target="_blank" rel="noopener">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>Codewars &amp; Lösungen</h3>
+      <p data-de="Ich löse täglich Aufgaben zur JavaScript-Verbesserung; hier ist mein Repo und mein Codewars-Profil." data-en="I solve daily challenges to improve my JavaScript; here are my solutions and profile.">
+        Ich löse täglich Aufgaben zur JavaScript-Verbesserung; hier ist mein Repo und mein Codewars-Profil.
+      </p>
+      <a class="btn cv-outline" href="https://github.com/NellleT/solutions" target="_blank" rel="noopener">GitHub Repo</a>
+      <a class="btn cv-blue" href="https://www.codewars.com/users/NelleT" target="_blank" rel="noopener">Codewars</a>
+    </div>
+  </section>
+
+  <!-- FUN FACTS -->
+  <section id="funfacts" class="reveal">
+    <h2 data-de="Fun Facts" data-en="Fun Facts">Fun Facts</h2>
+    <p class="muted" data-de="Meine Lieblingssachen:" data-en="My favorite things:">Meine Lieblingssachen:</p>
+    <ul>
+      <li data-de="🎬 Film: Inception" data-en="🎬 Movie: Inception">🎬 Film: Inception</li>
+      <li data-de="📺 Serie: True Detective" data-en="📺 Series: True Detective">📺 Serie: True Detective</li>
+      <li data-de="🐱 Tier: Katze" data-en="🐱 Animal: Cat">🐱 Tier: Katze</li>
+      <li data-de="🍕 Essen: Pizza" data-en="🍕 Food: Pizza">🍕 Essen: Pizza</li>
+      <li data-de="🎨 Farbe: Grün" data-en="🎨 Color: Green">🎨 Farbe: Grün</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="reveal">
+    <h2 data-de="Kontakt" data-en="Contact">Kontakt</h2>
+
+    <form id="contact-form" autocomplete="on" novalidate>
+      <div class="field">
+        <input type="text" id="f-name" name="name" required data-de-ph="Ihr Name" data-en-ph="Your name" />
+        <label for="f-name" data-de="Ihr Name" data-en="Your name">Ihr Name</label>
+      </div>
+
+      <div class="field">
+        <input type="email" id="f-email" name="email" required data-de-ph="Ihre E-Mail" data-en-ph="Your email" />
+        <label for="f-email" data-de="Ihre E-Mail" data-en="Your email">Ihre E-Mail</label>
+      </div>
+
+      <div class="field">
+        <textarea id="f-msg" name="message" rows="5" required data-de-ph="Ihre Nachricht" data-en-ph="Your message"></textarea>
+        <label for="f-msg" data-de="Ihre Nachricht" data-en="Your message">Ihre Nachricht</label>
+      </div>
+
+      <button type="submit" class="btn cv-blue" data-de="Senden" data-en="Send">Senden</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>
+      © 2025 Vlad Zakharov – Designed with ❤️ in Switzerland
+      &nbsp;•&nbsp;
+      <a href="https://github.com/NellleT" target="_blank" rel="noopener">GitHub</a>
+      &nbsp;•&nbsp;
+      <a href="https://www.codewars.com/users/NelleT" target="_blank" rel="noopener">Codewars</a>
+      &nbsp;•&nbsp;
+      <a href="https://leetcode.com/u/NelleT/" target="_blank" rel="noopener">LeetCode</a>
+    </p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
