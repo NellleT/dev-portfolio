@@ -133,14 +133,21 @@ function setupAnchorScrolling() {
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', function (e) {
       const href = this.getAttribute('href');
-      if (!href || href.length === 0 || href === '#') return;
+      if (!href || href === '#') return;
+
       const target = document.querySelector(href);
       if (!target) return;
+
       e.preventDefault();
+
       const header = document.querySelector('.top-header');
       const headerHeight = header ? header.offsetHeight : 0;
-      const targetY = Math.max(0, target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10);
-      smoothScrollTo(targetY, 800);
+      const targetY = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 10;
+
+      window.scrollTo({
+        top: targetY,
+        behavior: 'smooth'
+      });
     });
   });
 }
