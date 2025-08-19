@@ -1,5 +1,3 @@
-# dev-portfolio
-
 # 👋 Grüezi, ich bin Vlad Zakharov
 
 Mein Name ist **Vladyslav Zakharov**, aber die meisten nennen mich **Vlad**.  
@@ -10,9 +8,9 @@ Ich bin **17 Jahre alt**, lebe seit dem **1. Dezember 2022 in der Schweiz** und 
 ## 🚀 Über mich
 - 📍 Wohne in Uster, Schweiz  
 - 🌐 Begeistert von **Technik, Informatik und japanischer Kultur**  
-- 💡 Werte wie **Disziplin (規律 Kiritsu)** und **Wachstum (成長 Seichō)** sind mir wichtig
-- 🎓 Schnupperlehre als Applikationsentwickler bei **Sonova AG**
-- 📝 **ICT-Multicheck absolviert**
+- 💡 Werte wie **Disziplin (規律 Kiritsu)** und **Wachstum (成長 Seichō)** sind mir wichtig  
+- 🎓 Schnupperlehre als Applikationsentwickler bei **Sonova AG**  
+- 📝 **ICT-Multicheck absolviert**  
 - 🈶 Seit 2022 intensiv **Deutsch gelernt** – 2025 **telc B2 Prüfung**  
 
 ---
@@ -41,7 +39,7 @@ Ich bin **17 Jahre alt**, lebe seit dem **1. Dezember 2022 in der Schweiz** und 
 - 👨‍💻 Programmieren  
 - 🈶 Sprachen lernen (Japanisch)  
 - 🏋️ Krafttraining  
-- 🎸 Gitarre spielen  
+- 🎸 Gitarre spielen (zukünftiges Hobby)  
 
 ---
 
@@ -53,6 +51,14 @@ Ich bin **17 Jahre alt**, lebe seit dem **1. Dezember 2022 in der Schweiz** und 
 - 🐱 Tier: *Katze*  
 - 🍕 Essen: *Pizza*  
 - 🎨 Farbe: *Grün*  
+
+---
+
+## 📊 GitHub Stats
+
+![Vlad's GitHub stats](https://github-readme-stats.vercel.app/api?username=NellleT&show_icons=true&theme=tokyonight)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NellleT&layout=compact&theme=tokyonight)  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=NellleT&theme=tokyonight)  
 
 ---
 
