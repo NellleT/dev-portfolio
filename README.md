@@ -4,7 +4,7 @@ Dies ist meine persönliche Bewerbungs-Webseite, erstellt mit **HTML, CSS und Ja
 Die Seite ist zweisprachig (DE/EN), zeigt meine Projekte, Skills, Fun Facts und enthält ein Kontaktformular.  
 Sie dient als kreative Ergänzung zu meinen Bewerbungsunterlagen.
 
-👉 Live-Demo: [GitHub Pages](https://nelllet.github.io/bewerbungsseite/)
+👉 Live-Demo: [GitHub Pages](https://nelllet.github.io/dev-portfolio/)
 
 # 👋 Grüezi, ich bin Vlad Zakharov
 
