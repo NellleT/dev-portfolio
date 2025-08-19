@@ -8,11 +8,11 @@ Ich bin **17 Jahre alt**, lebe seit dem **1. Dezember 2022 in der Schweiz** und 
 ---
 
 ## 🚀 Über mich
-- 📍 Wohne in Zürich, Schweiz  
+- 📍 Wohne in Uster, Schweiz  
 - 🌐 Begeistert von **Technik, Informatik und japanischer Kultur**  
-- 💡 Werte wie **Disziplin (規律 Kiritsu)** und **Wachstum (成長 Seichō)** sind mir wichtig  
-- 🎓 Schnupperlehre als Applikationsentwickler bei **Sonova AG**  
-- 📝 **ICT-Multicheck absolviert**  
+- 💡 Werte wie **Disziplin (規律 Kiritsu)** und **Wachstum (成長 Seichō)** sind mir wichtig
+- 🎓 Schnupperlehre als Applikationsentwickler bei **Sonova AG**
+- 📝 **ICT-Multicheck absolviert**
 - 🈶 Seit 2022 intensiv **Deutsch gelernt** – 2025 **telc B2 Prüfung**  
 
 ---
