@@ -28,7 +28,7 @@ Ich bin **17 Jahre alt**, lebe seit dem **1. Dezember 2022 in der Schweiz** und 
 
 ## 📂 Projekte
 - 🛋️ [**Avion**](https://nelllet.github.io/Avion/) – Online-Möbelshop (HTML & CSS)  
-- 🏦 [**Brex**](https://nelllet.github.io/Brex/) – moderne Bank-/Finanz-Website  
+- 🏦 [**Brex**](https://nelllet.github.io/Brex/) – moderne Bank-/Finanz-Website (HTML & CSS)  
 - ⚡ [**Codewars Lösungen**](https://github.com/NellleT/solutions) – tägliche Übungsaufgaben in JavaScript  
   - 🔗 [Profil Codewars](https://www.codewars.com/users/NelleT)  
   - 🔗 [Profil LeetCode](https://leetcode.com/u/NelleT/)  
